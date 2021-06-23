@@ -79,10 +79,13 @@
 			endif;
       
       $logo = get_logo($examData->user_id);
+
 	  $user = get_userdata($post->post_author);
-	  if( in_array( 'subscriber', $user->roles )) $is_in_role = "true";
-	  else $is_in_role = "false";
-	  write_log( $is_in_role);
+	  $table_name = $wpdb->prefix . 'exam_results';
+	  $finished_count = $wpdb->get_results( "SELECT count(1) as count FROM $table_name WHERE user_id = " . $user->ID . " and exam_id = " . get_the_ID() . " and finished = TRUE");
+	  $finished_count = $finished_count[0]->count;
+	  if( in_array( 'subscriber', $user->roles ) && $finished_count >= get_field('purched_send', 'user_'.$user->ID)) $is_valid_to_continue = "true";
+	  else $is_valid_to_continue = "false";
 	?>
         <script>
 			window.percentObj = <?php echo json_encode($percentageData)?>;
@@ -103,7 +106,7 @@
     				<span>קיבלת מבחן מהחברה:</span>
     				<span><?=$userMeta['nickname'][0]?></span>
     			</p>
-    			<span v-if="<?php echo $is_in_role; ?>" class="test-start__button">
+    			<span v-if="<?php echo $is_valid_to_continue; ?>" class="test-start__button">
     				<span class="test-start__button-label" @click.stop="show=!show" >המשך ></span>
     			</span>
   
@@ -123,7 +126,7 @@
   				<span>קיבלת מבחן מהחברה:</span>
   				<span><?=$userMeta['nickname'][0]?></span>
   			</p>
-  			<span v-if="<?php echo $is_in_role; ?>" class="test-start__button">
+  			<span v-if="<?php echo $is_valid_to_continue; ?>" class="test-start__button">
   				<span class="test-start__button-label" @click="show = !show" >המשך ></span>
   			</span>
   

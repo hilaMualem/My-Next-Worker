@@ -208,8 +208,9 @@ Template Name: Buy package
         						<?=$val->post_excerpt?>
         					</div>
                       
-                   <div class="package-price-box__price">  <?=$cur_prod->get_price()?> <?=get_woocommerce_currency_symbol()?> </div>
-                   <div class="package-price-box__price-exp"> בתשלום שנתי מתחדש </div>
+                   <div class="package-price-box__price">  <?php echo $cur_prod->get_price()/12 ?> <?=get_woocommerce_currency_symbol()?> </div>
+                   <!-- <div class="package-price-box__price-exp"> בתשלום שנתי מתחדש </div> -->
+                   <div class="package-price-box__price-exp"> *12 </div>
                    
                    <!--<div class="price"> <?=$cur_prod->get_regular_price()?> </div>
                    

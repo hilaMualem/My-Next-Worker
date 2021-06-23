@@ -7164,20 +7164,3 @@ div.wpcf7 p {
 		margin:0;
 	}
 }
-.why-us .why-us__body{
-    flex-wrap:wrap;
-}
-.why-us .why-us__body >*:last-child{
-    max-width:1040px;
-}
-.titel-descriptions div {
-    display:inline-block;
-    width:100%;
-}
-.titel-descriptions div.package-price-box__price{
-    margin:0;
-    width:auto;
-}
-.bank-content-table{
-    display:flex;
-}
