@@ -1,0 +1,261 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Mail 2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./mail2style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Arial:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body style="margin: 0; padding: 15px;" dir="rtl">
+ <table border="1" cellpadding="0" cellspacing="0" width="100%" class="email" style="font-family: Arial;
+                                                                                      width: 100%;
+                                                                                      max-width: 1200px;
+                                                                                  
+                                                                                      margin: 20px auto;
+                                                                                      padding: 50px 15px;
+                                                                                      text-align: center;
+                                                                                  
+                                                                                      border-radius: 10px;
+                                                                                      box-shadow: 0 3px 26px 0 rgba(0, 0, 0, 0.09);
+                                                                                      background-color: #ffffff;
+                                                                                      border: none;">
+  <tr style="border: none;">
+   <td style="border: none;">
+    <img src="{{iconURL}}/img/icon.png" alt="icon" class="email__img" style="width: 100%; max-width: 100px;">
+    <!-- <img src="./img/icon.png" alt="icon" class="email__img" style="width: 100%; max-width: 100px;"> -->
+
+   </td>
+  </tr>
+
+  <tr style="border: none;">
+   <td style="border: none;">
+    <h1 class="email__title" style="font-family: Arial;
+                                    font-size: 40px;
+                                    font-weight: normal;
+                                    font-stretch: normal;
+                                    font-style: normal;
+                                    line-height: 0.8;
+                                    letter-spacing: normal;
+                                    text-align: center;
+                                    color: #000000;
+                                    margin: 0;
+                                    padding: 40px 0 20px 0;">תודה רבה שפנית אלינו לקבלת פרטים על המשרה:</h1>
+   </td>
+  </tr>
+
+  <tr style="border: none;">
+   <td style="border: none;">
+    <p class="email__paragraph" style="font-family: Arial;
+                                        font-size: 15px;
+                                        font-weight: normal;
+                                        font-stretch: normal;
+                                        font-style: normal;
+                                        line-height: 1.33;
+                                        letter-spacing: normal;
+                                        text-align: center;
+                                        color: #4a4a4a;
+                                        margin: 0;
+                                        padding: 0 0 25px 0;">אם המשרה רלוונטית עבורך נבקש שתעשה מבחן הערכה קצר לדעת אם אתה מתאים לנו.</p>
+   </td>
+  </tr>
+
+  <tr style="border: none;">
+   <td style="border: none;">
+    <h2 class="email__subtitle" style="font-family: Arial;
+                                        font-size: 25px;
+                                        font-weight: normal;
+                                        font-stretch: normal;
+                                        font-style: normal;
+                                        line-height: 1.28;
+                                        letter-spacing: normal;
+                                        text-align: center;
+                                        color: #000000;
+                                        padding: 0 0 20px 0;
+                                        margin: 0;">אלו פרטי המשרה:</h2>
+   </td>
+  </tr>
+
+  <tr style="border: none;">
+   <td style="border: none;">
+    <table class="email__box" style="width: 100%;
+                                      max-width: 621px;
+                                      height: 223px;
+                                      margin: 0 auto;
+                                      padding: 34px 31px 38px 38px;
+                                      border-radius: 25px;
+                                      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+                                      background-color: #f7f7f7;">
+      <tr style="border: none;">
+       <td class="email__col" style="text-align: right; height: 100%;">
+        <ul class="email__list" style="list-style: none; margin: 0; padding: 0;">
+          <li class="email__list-item" style="font-family: Arial;
+                                              font-size: 15px;
+                                              font-weight: normal;
+                                              font-stretch: normal;
+                                              font-style: normal;
+                                              line-height: 1.33;
+                                              letter-spacing: normal;
+                                              text-align: right;
+                                              color: #4a4a4a;
+                                              padding-bottom: 10px;">שם החברה: {{company_name}}</li>
+          <li class="email__list-item" style="font-family: Arial;
+                                              font-size: 15px;
+                                              font-weight: normal;
+                                              font-stretch: normal;
+                                              font-style: normal;
+                                              line-height: 1.33;
+                                              letter-spacing: normal;
+                                              text-align: right;
+                                              color: #4a4a4a;
+                                              padding-bottom: 10px;">שם המשרה: {{position_name}}</li>
+          <li class="email__list-item" style="font-family: Arial;
+                                              font-size: 15px;
+                                              font-weight: normal;
+                                              font-stretch: normal;
+                                              font-style: normal;
+                                              line-height: 1.33;
+                                              letter-spacing: normal;
+                                              text-align: right;
+                                              color: #4a4a4a;
+                                              padding-bottom: 10px;">כתובת המשרה: {{position_address}}</li>
+          <li class="email__list-item" style="font-family: Arial;
+                                              font-size: 15px;
+                                              font-weight: normal;
+                                              font-stretch: normal;
+                                              font-style: normal;
+                                              line-height: 1.33;
+                                              letter-spacing: normal;
+                                              text-align: right;
+                                              color: #4a4a4a;
+                                              padding-bottom: 10px;">עיר המשרה: {{position_city}}</li>
+          <li class="email__list-item" style="font-family: Arial;
+                                              font-size: 15px;
+                                              font-weight: normal;
+                                              font-stretch: normal;
+                                              font-style: normal;
+                                              line-height: 1.33;
+                                              letter-spacing: normal;
+                                              text-align: right;
+                                              color: #4a4a4a;
+                                              padding-bottom: 10px;">תאריך תחילת עבודה: {{position_date}}</li>
+          <li class="email__list-item" style="font-family: Arial;
+                                              font-size: 15px;
+                                              font-weight: normal;
+                                              font-stretch: normal;
+                                              font-style: normal;
+                                              line-height: 1.33;
+                                              letter-spacing: normal;
+                                              text-align: right;
+                                              color: #4a4a4a;
+                                              padding-bottom: 10px;">שכר: {{position_sallary}}</li>
+          <li class="email__list-item" style="font-family: Arial;
+                                              font-size: 15px;
+                                              font-weight: normal;
+                                              font-stretch: normal;
+                                              font-style: normal;
+                                              line-height: 1.33;
+                                              letter-spacing: normal;
+                                              text-align: right;
+                                              color: #4a4a4a;
+                                              padding-bottom: 10px;">סוג משרה: {{position_type}}</li>
+          <li class="email__list-item" style="font-family: Arial;
+                                              font-size: 15px;
+                                              font-weight: normal;
+                                              font-stretch: normal;
+                                              font-style: normal;
+                                              line-height: 1.33;
+                                              letter-spacing: normal;
+                                              text-align: right;
+                                              color: #4a4a4a;
+                                              padding-bottom: 10px;">ניסיון נדרש: {{position_expir}}</li>
+          <li class="email__list-item" style="font-family: Arial;
+                                              font-size: 15px;
+                                              font-weight: normal;
+                                              font-stretch: normal;
+                                              font-style: normal;
+                                              line-height: 1.33;
+                                              letter-spacing: normal;
+                                              text-align: right;
+                                              color: #4a4a4a;
+                                              padding-bottom: 10px;">דרישות המשרה:</li>
+          <li class="email__list-item" style="font-family: Arial;
+                                              font-size: 15px;
+                                              font-weight: normal;
+                                              font-stretch: normal;
+                                              font-style: normal;
+                                              line-height: 1.33;
+                                              letter-spacing: normal;
+                                              text-align: right;
+                                              color: #4a4a4a;
+                                              padding-bottom: 10px;">{{position_req}} </li>
+          <li class="email__list-item" style="font-family: Arial;
+                                              font-size: 15px;
+                                              font-weight: normal;
+                                              font-stretch: normal;
+                                              font-style: normal;
+                                              line-height: 1.33;
+                                              letter-spacing: normal;
+                                              text-align: right;
+                                              color: #4a4a4a;
+                                              padding-bottom: 10px;">תיאור המשרה:</li>
+          <li class="email__list-item" style="font-family: Arial;
+                                              font-size: 15px;
+                                              font-weight: normal;
+                                              font-stretch: normal;
+                                              font-style: normal;
+                                              line-height: 1.33;
+                                              letter-spacing: normal;
+                                              text-align: right;
+                                              color: #4a4a4a;
+                                              padding-bottom: 10px;">{{position_description}} </li>
+        </ul>
+       </td>
+       <td  style="border: none;" class="email__col">
+        <span class="email__photo-box" style="display: block;
+                                              width: 140px;
+                                              height: 140px;
+                                              border-radius: 50%;
+                                              box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+                                              border: solid 1px #d1d1d1;
+                                              background-color: #ffffff;
+                                              margin: auto;
+                                              background-image: url({{linkToLogo}});
+											                        background-size: 140px;
+                                              background-repeat: no-repeat;"></span>
+       </td>
+      </tr>
+    </table>
+   </td>
+  </tr>
+
+  <tr style="border: none;">
+   <td style="border: none;">
+    <a href="{{testURL}}" class="email__btn" style="display: block;
+                                                    text-align: center;
+                                                    font-family: Arial;
+                                                    font-size: 20px;
+                                                    font-weight: 500;
+                                                    font-stretch: normal;
+                                                    font-style: normal;
+                                                    line-height: 34px;
+                                                    letter-spacing: normal;
+                                                    text-align: center;
+                                                    color: #ffffff;
+                                                    text-decoration: none;
+                                                
+                                                    width: 156px;
+                                                    height: 34px;
+                                                    border-radius: 5px;
+                                                    background-color: #3eccb5;
+                                                    transition: all 0.2s linear;
+                                                    margin: 30px auto 10px auto;">התחיל/י מבחן</h2>
+   </td>
+  </tr>
+  
+
+ </table>
+</body>
+
+</html>

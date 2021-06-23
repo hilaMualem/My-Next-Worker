@@ -1,0 +1,127 @@
+﻿.email {
+    font-family: Arial;
+    width: 100%;
+    max-width: 1200px;
+
+    margin: 20px auto;
+    padding: 50px 15px;
+    text-align: center;
+
+    border-radius: 10px;
+    box-shadow: 0 3px 26px 0 rgba(0, 0, 0, 0.09);
+    background-color: #ffffff;
+    border: none;
+}
+
+tr {
+    border: none;
+}
+
+td {
+    border: none;
+}
+
+.email__img {
+    width: 100%;
+    max-width: 125px;
+}
+
+.email__title {
+    font-family: Arial;
+  font-size: 40px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 105%;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  width: 100%;
+  max-width: 500px;
+  margin: 50px auto 10px auto;
+}
+
+.email__paragraph {
+    font-family: Arial;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto 10px auto;
+}
+
+.email__subtitle {
+    font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.email__btn {
+    display: block;
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 34px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+
+    width: 156px;
+    height: 34px;
+    border-radius: 5px;
+    background-color: #3eccb5;
+    transition: all 0.2s linear;
+    margin: 30px auto 10px auto;
+}
+
+.email__btn:hover {
+    box-shadow: -10px 20px 36px 0 rgba(0, 0, 0, 0.12);
+    text-decoration: underline;
+    transition: all 0.2s linear;
+}
+
+.email__text {
+    font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #00ac90;
+}
+
+@media screen and (max-width: 480px) {
+    .email__img {
+        max-width: 70px;
+    }
+
+    .email__title {
+        font-size: 24px;
+    }
+    .email__subtitle {
+        font-size: 16px;
+    }
+    .email__paragraph {
+        font-size: 14px;
+    }
+    .email__text {
+        font-size: 14px;
+    }
+}

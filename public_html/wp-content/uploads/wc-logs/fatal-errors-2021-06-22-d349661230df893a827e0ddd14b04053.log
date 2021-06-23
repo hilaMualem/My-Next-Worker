@@ -1,0 +1,77 @@
+2021-06-22T09:22:02+00:00 CRITICAL Uncaught Error: Call to a member function get_user() on bool in /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/themes/mynextworker/functions.php:256
+Stack trace:
+#0 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php(292): add_subscription('')
+#1 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1143): do_action('woocommerce_che...')
+#4 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(466): WC_Checkout->process_checkout()
+#5 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php(292): WC_AJAX::checkout('')
+#6 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-inclu בקובץ /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/themes/mynextworker/functions.php בשורה 256
+
+2021-06-22T09:22:50+00:00 CRITICAL Uncaught Error: Call to a member function get_user() on bool in /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/themes/mynextworker/functions.php:256
+Stack trace:
+#0 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php(292): add_subscription('')
+#1 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1143): do_action('woocommerce_che...')
+#4 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(466): WC_Checkout->process_checkout()
+#5 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php(292): WC_AJAX::checkout('')
+#6 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-inclu בקובץ /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/themes/mynextworker/functions.php בשורה 256
+
+2021-06-22T09:26:30+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on bool in /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/themes/mynextworker/functions.php:259
+Stack trace:
+#0 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php(292): add_subscription('')
+#1 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1143): do_action('woocommerce_che...')
+#4 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(466): WC_Checkout->process_checkout()
+#5 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php(292): WC_AJAX::checkout('')
+#6 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-incl בקובץ /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/themes/mynextworker/functions.php בשורה 259
+
+2021-06-22T09:28:33+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on bool in /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/themes/mynextworker/functions.php:259
+Stack trace:
+#0 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php(292): add_subscription('')
+#1 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1143): do_action('woocommerce_che...')
+#4 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(466): WC_Checkout->process_checkout()
+#5 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php(292): WC_AJAX::checkout('')
+#6 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-incl בקובץ /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/themes/mynextworker/functions.php בשורה 259
+
+2021-06-22T14:17:02+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function switched_subscription_to_past_customer(), 1 passed in /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php on line 294 and exactly 3 expected in /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/themes/mynextworker/functions.php:279
+Stack trace:
+#0 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php(294): switched_subscription_to_past_customer(Object(WC_Subscription))
+#1 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/plugins/woocommerce-subscriptions/includes/class-wc-subscription.php(584): do_action('woocommerce_sub...', Object(WC_Subscription), 'active', 'pending')
+#4 /home/610281.cloudwaysapps.com/xmntgrtnte/public_ht בקובץ /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/themes/mynextworker/functions.php בשורה 279
+
+2021-06-22T14:20:31+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function switched_subscription_to_past_customer(), 1 passed in /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php on line 294 and exactly 3 expected in /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/themes/mynextworker/functions.php:281
+Stack trace:
+#0 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php(294): switched_subscription_to_past_customer(Object(WC_Subscription))
+#1 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/plugins/woocommerce-subscriptions/includes/class-wc-subscription.php(584): do_action('woocommerce_sub...', Object(WC_Subscription), 'active', 'pending')
+#4 /home/610281.cloudwaysapps.com/xmntgrtnte/public_ht בקובץ /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/themes/mynextworker/functions.php בשורה 281
+
+2021-06-22T14:47:24+00:00 CRITICAL syntax error, unexpected ''status_transition'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' בקובץ /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/themes/mynextworker/functions.php בשורה 285
+
+2021-06-22T14:47:30+00:00 CRITICAL syntax error, unexpected ''status_transition'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' בקובץ /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/themes/mynextworker/functions.php בשורה 285
+
+2021-06-22T14:47:33+00:00 CRITICAL syntax error, unexpected ''status_transition'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' בקובץ /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/themes/mynextworker/functions.php בשורה 285
+
+2021-06-22T14:47:33+00:00 CRITICAL syntax error, unexpected ''status_transition'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' בקובץ /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/themes/mynextworker/functions.php בשורה 285
+
+2021-06-22T14:47:36+00:00 CRITICAL syntax error, unexpected ''status_transition'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' בקובץ /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/themes/mynextworker/functions.php בשורה 285
+
+2021-06-22T14:47:40+00:00 CRITICAL syntax error, unexpected ''status_transition'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' בקובץ /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/themes/mynextworker/functions.php בשורה 285
+
+2021-06-22T14:48:17+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Subscription as array in /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/themes/mynextworker/functions.php:285
+Stack trace:
+#0 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php(294): switched_subscription_to_past_customer(Object(WC_Subscription))
+#1 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/plugins/woocommerce-subscriptions/includes/class-wc-subscription.php(584): do_action('woocommerce_sub...', Object(WC_Subscription), 'active', 'pending')
+#4 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(221): WC_Subscription->status_transition()
+#5 /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp- בקובץ /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/themes/mynextworker/functions.php בשורה 285
+

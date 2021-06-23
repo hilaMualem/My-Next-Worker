@@ -1,0 +1,40 @@
+
+[23-Jun-2021 05:10:46]  [pool xmntgrtnte] pid 15261
+script_filename = /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-admin/admin-ajax.php
+[0x00007fbc8181f7f0] mysqli_query() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/wp-db.php:2056
+[0x00007fbc8181f780] _do_query() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/wp-db.php:1945
+[0x00007fbc8181f6a0] query() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/wp-db.php:2615
+[0x00007fbc8181f5d0] get_row() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/option.php:125
+[0x00007fbc8181f4b0] get_option() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/option.php:800
+[0x00007fbc8181f3d0] get_transient() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Features/Onboarding.php:144
+[0x00007fbc8181f310] admin_redirects() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php:292
+[0x00007fbc8181f230] apply_filters() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php:316
+[0x00007fbc8181f1c0] do_action() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/plugin.php:484
+[0x00007fbc8181f0e0] do_action() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-admin/admin-ajax.php:45
+
+[23-Jun-2021 06:19:11]  [pool xmntgrtnte] pid 17861
+script_filename = /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-admin/admin-ajax.php
+[0x00007fbc8181f3f0] sleep() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php:57
+[0x00007fbc8181f380] handle() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php:147
+[0x00007fbc8181f310] maybe_handle() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php:292
+[0x00007fbc8181f230] apply_filters() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php:316
+[0x00007fbc8181f1c0] do_action() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/plugin.php:484
+[0x00007fbc8181f0e0] do_action() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-admin/admin-ajax.php:187
+
+[23-Jun-2021 07:05:44]  [pool xmntgrtnte] pid 20075
+script_filename = /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-admin/admin-ajax.php
+[0x00007fbc8181f3f0] sleep() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php:57
+[0x00007fbc8181f380] handle() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php:147
+[0x00007fbc8181f310] maybe_handle() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php:292
+[0x00007fbc8181f230] apply_filters() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php:316
+[0x00007fbc8181f1c0] do_action() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/plugin.php:484
+[0x00007fbc8181f0e0] do_action() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-admin/admin-ajax.php:187
+
+[23-Jun-2021 07:37:59]  [pool xmntgrtnte] pid 21837
+script_filename = /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-admin/admin-ajax.php
+[0x00007fbc8181f3f0] sleep() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php:57
+[0x00007fbc8181f380] handle() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php:147
+[0x00007fbc8181f310] maybe_handle() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php:292
+[0x00007fbc8181f230] apply_filters() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/class-wp-hook.php:316
+[0x00007fbc8181f1c0] do_action() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-includes/plugin.php:484
+[0x00007fbc8181f0e0] do_action() /home/610281.cloudwaysapps.com/xmntgrtnte/public_html/wp-admin/admin-ajax.php:187

@@ -1,0 +1,424 @@
+# Translation of Plugins - Yaad Sarig Payment Gateway For WC - Development (trunk) in Hebrew
+# This file is distributed under the same license as the Plugins - Yaad Sarig Payment Gateway For WC - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-05-17 07:18:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: he_IL\n"
+"Project-Id-Version: Plugins - Yaad Sarig Payment Gateway For WC - Development (trunk)\n"
+
+#: classes/class-wc-gateway-yaadpay.php:2074
+msgid "Order"
+msgstr "הזמנה"
+
+#: classes/class-wc-gateway-yaadpay.php:2126
+msgid "Payment failure, signature mismatch"
+msgstr "התשלום נכשל , שגיאת אימות"
+
+#: classes/class-wc-gateway-yaadpay.php:2236
+msgid "New credit card"
+msgstr "כרטיס אשראי חדש"
+
+#: classes/class-wc-gateway-yaadpay.php:2243
+msgid "Saved credit card that ends with : "
+msgstr "כרטיס אשראי המסתיים ב : "
+
+#: classes/class-wc-gateway-yaadpay.php:2257
+msgid "please select the number of payments"
+msgstr "אנא בחר מספר התשלומים"
+
+#: classes/class-wc-gateway-yaadpay.php:2259
+msgid "Payments : "
+msgstr "מספר תשלומים מקסימלי : "
+
+#: classes/class-wc-yaadpay-user-fields.php:20
+msgid "Yaadpay profile information"
+msgstr "יעד שריג - מידע לגבי התשלום"
+
+#: classes/class-wc-yaadpay-user-fields.php:23
+msgid "Token"
+msgstr "טוקן"
+
+#: classes/class-wc-yaadpay-user-fields.php:27
+msgid "Yaadpay Token for future payments"
+msgstr "TOKEN לתשלום עתידי"
+
+#: classes/class-wc-yaadpay-user-fields.php:31
+msgid "Expiration Month"
+msgstr "תוקף הכרטיס - חודש"
+
+#: classes/class-wc-yaadpay-user-fields.php:38
+msgid "Expiration Year"
+msgstr "תוקף הכרטיס - שנה"
+
+#: classes/class-wc-yaadpay-user-fields.php:45
+msgid "Card Number"
+msgstr "מספר כרטיס"
+
+#: woocommerce-gateway-yaadpay.php:35
+msgid "Settings"
+msgstr "הגדרות"
+
+#: classes/class-wc-gateway-yaadpay-refund.php:26
+msgid "Manager Password:"
+msgstr "סיסמת מנהל:"
+
+#: classes/class-wc-gateway-yaadpay.php:181
+msgid "Yaadpay"
+msgstr "יעד שריג סליקת אשראי"
+
+#: classes/class-wc-gateway-yaadpay.php:182
+msgid "Allow payments using yaadpay"
+msgstr "אפשר תשלום באמצעות יעד שריג"
+
+#: classes/class-wc-gateway-yaadpay.php:1826
+msgid "Unable to proceed with checkout."
+msgstr "לא ניתן להמשיך בתשלום."
+
+#: classes/class-wc-gateway-yaadpay.php:608
+msgid "Yaadpay payment failure"
+msgstr "התשלום נכשל"
+
+#: classes/class-wc-gateway-yaadpay.php:646
+msgid "Debug"
+msgstr "איתור שגיאות"
+
+#: classes/class-wc-gateway-yaadpay.php:648
+msgid "Enable debug mode"
+msgstr "רישום מידע ללוג (לצפיה בלשונית 'לוג')"
+
+#: classes/class-wc-gateway-yaadpay.php:652
+msgid "Detailed Log"
+msgstr "לוג מפורט"
+
+#: classes/class-wc-gateway-yaadpay.php:654
+msgid "Enable detailed log mode"
+msgstr "רישום מידע ללוג (לצפיה בלשונית 'לוג')"
+
+#: classes/class-wc-gateway-yaadpay.php:666
+msgid "Invoices"
+msgstr "אפשר חשבוניות"
+
+#: classes/class-wc-gateway-yaadpay.php:668
+#: classes/class-wc-gateway-yaadpay.php:669
+msgid "Support Invoices"
+msgstr "אפשר חשבוניות"
+
+#: classes/class-wc-gateway-yaadpay.php:678
+msgid "Payment type"
+msgstr "צורת תשלום"
+
+#: classes/class-wc-gateway-yaadpay.php:681
+msgid "Process"
+msgstr "חיוב"
+
+#: classes/class-wc-gateway-yaadpay.php:683
+msgid "J5"
+msgstr "תשלום j-5"
+
+#: classes/class-yaadpay-meta-box.php:312
+#: classes/class-wc-gateway-yaadpay.php:682
+msgid "Postpone"
+msgstr "חיוב מושהה"
+
+#: classes/class-wc-gateway-yaadpay.php:708
+msgid "Title"
+msgstr "כותרת"
+
+#: classes/class-wc-gateway-yaadpay.php:710
+msgid "This controls the title which the user sees during checkout."
+msgstr "כותרת זו תוצג ללקוח בזמן התשלום."
+
+#: classes/class-wc-gateway-yaadpay.php:711
+msgid "Yaadpay Gateway"
+msgstr "יעד שריג"
+
+#: classes/class-wc-gateway-yaadpay.php:714
+msgid "Description"
+msgstr "תאור"
+
+#: classes/class-wc-gateway-yaadpay.php:716
+msgid "This controls the description which the user sees during checkout."
+msgstr "התאור אותו יראה הלקוח בעת התשלום."
+
+#: classes/class-wc-gateway-yaadpay.php:717
+msgid "Pay via Yaadpay"
+msgstr "תשלום דרך יעד שריג"
+
+#: classes/class-wc-gateway-yaadpay.php:720
+msgid "Language"
+msgstr "שפה"
+
+#: classes/class-wc-gateway-yaadpay.php:723
+msgid "Hebrew"
+msgstr "עברית"
+
+#: classes/class-wc-gateway-yaadpay.php:724
+msgid "English"
+msgstr "אנגלית"
+
+#: classes/class-wc-gateway-yaadpay.php:725
+#: classes/class-wc-gateway-yaadpay.php:736
+msgid "Auto"
+msgstr "אוטומטי"
+
+#: classes/class-wc-gateway-yaadpay.php:729
+msgid "Currency"
+msgstr "מטבע"
+
+#: classes/class-wc-gateway-yaadpay.php:734
+msgid "Euro"
+msgstr "Euro - אירו"
+
+#: classes/class-wc-gateway-yaadpay.php:741
+msgid "Use Iframe"
+msgstr "להשתמש ב Iframe"
+
+#: classes/class-wc-gateway-yaadpay.php:743
+msgid "Load the secured YaadPay page in an iframe"
+msgstr "טען את דף הסליקה המאובטח בתוך Iframe באתר"
+
+#: classes/class-wc-gateway-yaadpay.php:747
+msgid " Iframe Width"
+msgstr " רוחב הIframe"
+
+#: classes/class-wc-gateway-yaadpay.php:749
+msgid "Set the Iframe width in PX , leave blank for 100%"
+msgstr "קבע את רוחב הIframe ביחידות של PX , השאר ריק ל 100%"
+
+#: classes/class-wc-gateway-yaadpay.php:753
+msgid " Iframe Height"
+msgstr " גובה Iframe"
+
+#: classes/class-wc-gateway-yaadpay.php:755
+msgid "Set the Iframe height in PX "
+msgstr "קבע את גובה הIframe ביחידות של PX "
+
+#: classes/class-wc-gateway-yaadpay.php:759
+msgid " Payment Page Template"
+msgstr "תבנית דף תשלום"
+
+#: classes/class-wc-gateway-yaadpay.php:786
+msgid "Enable/Disable"
+msgstr "הפעל/בטל"
+
+#: classes/class-wc-gateway-yaadpay.php:788
+msgid "Enable yaadpay Payment"
+msgstr "לאפשר תשלום באמצעות יעד שריג"
+
+#: classes/class-wc-gateway-yaadpay.php:799
+msgid "Terminal Number"
+msgstr "מספר מסוף סליקה"
+
+#: classes/class-wc-gateway-yaadpay.php:801
+msgid "Your terminal number as provided by Yaadpay"
+msgstr "מספר המסוף שהתקבל מיעד שריג"
+
+#: classes/class-wc-gateway-yaadpay.php:804
+msgid "Authentication signature"
+msgstr "חתימת אימות"
+
+#: classes/class-wc-gateway-yaadpay.php:806
+msgid "Fraud prevention signature"
+msgstr "חתימה למניעת הונאות ברשת"
+
+#: classes/class-wc-gateway-yaadpay.php:809
+msgid "Remote password (PassP)"
+msgstr "סיסמא לפעולות מרוחקות (PassP)"
+
+#: classes/class-wc-gateway-yaadpay.php:811
+msgid "This password will be used for server to server action like subscriptions tokenized payments and refunds"
+msgstr "סיסמה זו תשמש את המערכת בפעולות כגון מנויים, תשלום בטוקנים והחזרים"
+
+#: classes/class-wc-gateway-yaadpay.php:814
+msgid "Max Payments"
+msgstr "מספר תשלומים מקסימלי"
+
+#: classes/class-wc-gateway-yaadpay.php:816
+msgid "Set the maximum allowed payments."
+msgstr "קבע את מספר התשלומים המקסימלי."
+
+#: classes/class-wc-gateway-yaadpay.php:820
+msgid "Tiered Payments"
+msgstr "מדרגות תשלום"
+
+#: classes/class-wc-gateway-yaadpay.php:822
+msgid "This Overrides the Max Payments setting !!! to use conditional payment simply enter a comma separated amounts e.g 200,400,600 -> this will set the payments to be 1 for lower than 200 , 2 for lower than 400 etc ..."
+msgstr "הגדרה זו דורסת את הגדרת התשלומים , יש להגדיר מדרגות תשלום בפורמט 200,400 -> המערכת תאפשר עד 200 תשלום אחד 200-399.99 שני תשלומים , מעל 400 3 תשלומים."
+
+#: classes/class-wc-gateway-yaadpay.php:862
+msgid "This is a validation order only , your account will not be charged"
+msgstr "שימו לב זוהי הזמנת אימות בלבד , חשבונכם לא יחוייב"
+
+#: classes/class-wc-gateway-yaadpay.php:893
+#: classes/class-wc-gateway-yaadpay.php:2176
+msgid "Payment failure, please try again or contact the store administrator"
+msgstr "התשלום נכשל , אנא נסו שנית או פנו למנהל האתר"
+
+#: classes/class-wc-gateway-yaadpay.php:895
+msgid "Error code :"
+msgstr "קוד שגיאה:"
+
+#: classes/class-wc-gateway-yaadpay.php:899
+msgid "Error text :"
+msgstr "שגיאה:"
+
+#: classes/class-wc-gateway-yaadpay.php:905
+#: classes/class-wc-gateway-yaadpay.php:2178
+msgid "Click <a href=\"%s\">here </a>to return to the checkout page."
+msgstr "לחצו <a href=\"%s\">כאן </a>לחזרה לעמוד התשלום."
+
+#: classes/class-wc-gateway-yaadpay.php:953
+msgid "Saved CC payment failed"
+msgstr "התשלום באמצעות כרטיס שמור נכשל"
+
+#: classes/class-wc-gateway-yaadpay.php:1018
+msgid "Refund for order %d"
+msgstr "זיכוי עבור הזמנה %d"
+
+#: classes/class-wc-gateway-yaadpay.php:1065
+msgid "Yaad pay payment gateway"
+msgstr "יעד סליקה ונאמנות"
+
+#: classes/class-wc-gateway-yaadpay.php:1070
+msgid "This is the return address for both the failure and success urls :"
+msgstr "זו הכתובת שיש להגדיר ביעד שריג גם ככתובת ההצלחה וגם ככתובת הכישלון:"
+
+#: classes/class-wc-gateway-yaadpay.php:1074
+msgid "If your site does NOT support HTTPS - change the address to HTTP instead of HTTPS"
+msgstr "במידה והאתר שלך אינו תומך ב HTTPS - יש לשנות את הכתובת ל HTTP במקום HTTPS"
+
+#: classes/class-wc-gateway-yaadpay.php:1077
+msgid "General"
+msgstr "כללי"
+
+#: classes/class-wc-gateway-yaadpay.php:1078
+msgid "Display"
+msgstr "תצוגה"
+
+#: classes/class-wc-gateway-yaadpay.php:1079
+msgid "Advanced"
+msgstr "מתקדם"
+
+#: classes/class-wc-gateway-yaadpay.php:1080
+msgid "Log"
+msgstr "יומן פעילות"
+
+#: classes/class-wc-gateway-yaadpay.php:1108
+msgid "View log"
+msgstr "הצג יומן פעילות"
+
+#: classes/class-wc-gateway-yaadpay.php:1114
+msgid "Delete log"
+msgstr "מחק יומן פעילות"
+
+#: classes/class-wc-gateway-yaadpay.php:1182
+msgid "Currency not supported: %s"
+msgstr "אין תמיכה במטבע: %s"
+
+#: classes/class-wc-gateway-yaadpay.php:1282
+msgid "Discount : "
+msgstr "הנחה : "
+
+#: classes/class-wc-gateway-yaadpay.php:1306
+msgid "Shipping : "
+msgstr "משלוח : "
+
+#: classes/class-wc-gateway-yaadpay.php:1693
+msgid "renewal failed"
+msgstr "החידוש נכשל"
+
+#: classes/class-wc-gateway-yaadpay.php:1739
+#: classes/class-wc-gateway-yaadpay.php:1770
+msgid "Yaadpay payment failed, ConfirmationCode: "
+msgstr "התשלום נכשל, קוד שגיאה: "
+
+#: classes/class-wc-gateway-yaadpay.php:1740
+msgid "Token payment failed. Confirmation Code: "
+msgstr "התשלום באמצעות טוקן נכשל "
+
+#: classes/class-yaadpay-meta-box.php:35
+msgid "Yaadpay Invoice"
+msgstr "חשבונית יעד שריג"
+
+#: classes/class-yaadpay-meta-box.php:46
+msgid "Yaadpay Transaction information"
+msgstr "יעד שריג  - מידע לגבי התשלום"
+
+#: classes/class-yaadpay-meta-box.php:63 classes/class-yaadpay-meta-box.php:68
+msgid "Download Invoice"
+msgstr "הורד חשבונית"
+
+#: classes/class-yaadpay-meta-box.php:83
+msgid "an error occurred, please contact Yaad Sarig"
+msgstr "אירעה שגיאה, אנא צרו קשר עם יעד שריג"
+
+#: classes/class-yaadpay-meta-box.php:97
+msgid "Failed to update subscription parent order, please contact 10bit"
+msgstr "עדכון המנוי נכשל, אנא צרו קשר עם 10bit"
+
+#: classes/class-yaadpay-meta-box.php:124
+#: classes/class-yaadpay-meta-box.php:155
+msgid "Yaadpay payment completed"
+msgstr "התשלום הושלם"
+
+#: classes/class-yaadpay-meta-box.php:129
+#: classes/class-yaadpay-meta-box.php:160
+msgid "Paymnet failure, please try again or contact the store administrator"
+msgstr "התשלום נכשל, נא לנסות שנית או ליצור קשר עם מנהל האתר"
+
+#: classes/class-yaadpay-meta-box.php:239
+#: classes/class-yaadpay-meta-box.php:311
+msgid "Transaction Type :"
+msgstr "סוג העסקה :"
+
+#: classes/class-yaadpay-meta-box.php:240
+msgid "Token "
+msgstr "טוקן "
+
+#: classes/class-yaadpay-meta-box.php:245
+#: classes/class-yaadpay-meta-box.php:317
+#: classes/class-yaadpay-meta-box.php:368
+msgid "Transaction Id :"
+msgstr "מזהה הטרנזקציה :"
+
+#: classes/class-yaadpay-meta-box.php:324
+msgid "Amount :"
+msgstr "סכום: "
+
+#: classes/class-yaadpay-meta-box.php:331
+msgid "Do not change the order's total amount"
+msgstr "לא ניתן לשנות את סכום העסקה"
+
+#: classes/class-yaadpay-meta-box.php:251
+msgid "Yaadpay Token :"
+msgstr "טוקן :"
+
+#: classes/class-yaadpay-meta-box.php:257
+msgid "Card expiration month : "
+msgstr "תוקף הכרטיס - חודש : "
+
+#: classes/class-yaadpay-meta-box.php:263
+msgid "Card expiration year :"
+msgstr "תוקף הכרטיס - שנה :"
+
+#: classes/class-yaadpay-meta-box.php:271
+#: classes/class-yaadpay-meta-box.php:339
+msgid "Charge"
+msgstr "חיוב"
+
+#: classes/class-yaadpay-meta-box.php:358
+msgid "Transaction Type : "
+msgstr "סוג העסקה : "
+
+#: classes/class-yaadpay-meta-box.php:359
+msgid "Regular payment"
+msgstr "עסקה רגילה"
+
+#: classes/class-yaadpay-meta-box.php:362
+msgid "Get Token"
+msgstr "עדכן טוקן"

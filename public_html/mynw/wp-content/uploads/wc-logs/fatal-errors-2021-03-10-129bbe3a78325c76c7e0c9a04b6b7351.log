@@ -1,0 +1,51 @@
+2021-03-10T12:45:25+00:00 CRITICAL syntax error, unexpected 'ж' (T_STRING) в C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-content\plugins\woocommerce\templates\content-product.php на строке 29
+
+2021-03-10T12:46:27+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_single_product_summary() in C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-content\plugins\woocommerce\templates\content-product.php:29
+Stack trace:
+#0 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-includes\template.php(732): require()
+#1 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\Users\\stass\\...', false)
+#2 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#3 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#4 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(283): WC_Shortcode_Products->get_content()
+#5 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp- в C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-content\plugins\woocommerce\templates\content-product.php на строке 29
+
+2021-03-10T12:46:55+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_single_product_summary() in C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-content\plugins\woocommerce\templates\content-product.php:29
+Stack trace:
+#0 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-includes\template.php(732): require()
+#1 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\Users\\stass\\...', false)
+#2 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#3 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#4 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(283): WC_Shortcode_Products->get_content()
+#5 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp- в C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-content\plugins\woocommerce\templates\content-product.php на строке 29
+
+2021-03-10T13:11:13+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_single_product_summary() in C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-content\plugins\woocommerce\templates\content-product.php:29
+Stack trace:
+#0 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-includes\template.php(732): require()
+#1 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\Users\\stass\\...', false)
+#2 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#3 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#4 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(283): WC_Shortcode_Products->get_content()
+#5 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp- в C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-content\plugins\woocommerce\templates\content-product.php на строке 29
+
+2021-03-10T14:11:25+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Frontend_Scripts::register_styles() in C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-content\plugins\woocommerce\includes\class-wc-frontend-scripts.php:326
+Stack trace:
+#0 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-includes\class-wp-hook.php(287): WC_Frontend_Scripts::load_scripts('')
+#1 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-includes\script-loader.php(2004): do_action('wp_enqueue_scri...')
+#4 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-includes\class-wp-hook.php(287): wp_enqueue_scripts('')
+#5 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\Use в C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-content\plugins\woocommerce\includes\class-wc-frontend-scripts.php на строке 326
+
+2021-03-10T14:24:12+00:00 CRITICAL Uncaught Error: Call to undefined function is_project() in C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-content\themes\mynextworker\functions.php:193
+Stack trace:
+#0 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-includes\class-wp-hook.php(287): jk_dequeue_projects_css('')
+#1 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-includes\script-loader.php(2004): do_action('wp_enqueue_scri...')
+#4 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-includes\class-wp-hook.php(287): wp_enqueue_scripts('')
+#5 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-includes\general в C:\Users\stass\Downloads\OSPanel\domains\mynw\wp-content\themes\mynextworker\functions.php на строке 193
+
