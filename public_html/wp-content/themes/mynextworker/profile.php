@@ -164,7 +164,7 @@ Template Name: Profile New
                 </div>
             </div>
 
-            <div class="profile__package profile-package">
+            <!-- <div class="profile__package profile-package">
                 <div class="profile-package__col1 profile-package-info">
                     <div class="profile-package-info__row">
                         <div class="profile-package-info__col">
@@ -193,7 +193,7 @@ Template Name: Profile New
                 <div class="profile-package__col2">
                     <a href="/רכישת-חבילות/" class="profile-btn profile-package__link">רכישת / שדרוג מנוי</a>
                 </div>
-            </div>
+            </div> -->
             
         </div>
     </div>                                                   

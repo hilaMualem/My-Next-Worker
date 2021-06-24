@@ -281,7 +281,7 @@ if (document.getElementById('emptest')) {
                 window.location.href = '/';
             },
             saveTest() {
-                console.log('this.results = ', this.results);
+                // console.log('this.results = ', this.results);
                 var formData = new FormData();
                 formData.append('test_result', JSON.stringify(this.results));
                 formData.append('percentageObject', JSON.stringify(this.percentObj));

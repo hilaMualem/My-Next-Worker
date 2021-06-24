@@ -135,7 +135,7 @@ Template Name: Registration
                 </label>
             </div>
             <div style="display: flex; align-items: center;">
-              <input type="checkbox"> <a style="margin-right: 5px;" href="/wp-content/uploads/2021/05/תקנון-הערכת-עובדים.docx">קראתי ואישרתי את תנאי השימוש באתר</a>
+              <input type="checkbox"> <a style="margin-right: 5px;" href="/wp-content/uploads/2021/06/תקנון-הערכת-עובדים.docx">קראתי ואישרתי את תנאי השימוש באתר</a>
             </div>
             <button type="submit" v-on:click.prevent="submitForm()" class="registration-page__submit-btn">
                 <?php the_field('registration_page_text_btn'); ?>

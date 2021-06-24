@@ -141,7 +141,7 @@
                <input type="text" class="registration-page__input" v-model="userData.name" required placeholder="שם פרטי ומשפחה" >
 			   <input v-if="testBuilderQuestionFields.address" type="text" class="registration-page__input" v-model="userData.address" required placeholder="כתובת מגורים" >
            		<input v-if="showEmail" type="text" class="registration-page__input" v-model="userData.email" required placeholder="דואר אלקטרוני" >
-				<input v-if="testBuilderQuestionFields.name" type="phone" class="registration-page__input"  v-model="userData.phone" required placeholder="טלפון נייד" >
+				<input v-if="testBuilderQuestionFields.phone" type="phone" class="registration-page__input"  v-model="userData.phone" required placeholder="טלפון נייד" >
 				<input v-if="testBuilderQuestionFields.experience" type="text" class="registration-page__input"  v-model="userData.experience" required placeholder="מהי השכלתך?" >
             	<input v-if="testBuilderQuestionFields.language" type="text" class="registration-page__input" v-model="userData.language" required placeholder="איזה שפות הינך דובר?" >
             
@@ -170,7 +170,7 @@
             </div>
            </div>
             <div style="display: flex; align-items: center;">
-              <input type="checkbox" v-model="enabled"> <a style="margin-right: 5px;" href="/wp-content/uploads/2021/05/תקנון-הערכת-עובדים.docx">קראתי ואישרתי את תנאי השימוש באתר</a>
+              <input type="checkbox" v-model="enabled"> <a style="margin-right: 5px;" href="/wp-content/uploads/2021/06/תקנון-הערכת-עובדים.docx">קראתי ואישרתי את תנאי השימוש באתר</a>
             </div>
 
            <div style="display: flex; align-items: center;">
