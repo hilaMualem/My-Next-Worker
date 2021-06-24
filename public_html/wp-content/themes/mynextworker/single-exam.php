@@ -138,20 +138,14 @@
                 מילוי פרטים
             </span>
            <div style="display: flex; flex-wrap: wrap;">
-               <input type="text" class="registration-page__input" v-model="userData.name" required placeholder="שם" >
-           <input v-if="showEmail" type="text" class="registration-page__input" v-model="userData.email" required placeholder="אימייל" >
-            <input v-if="testBuilderQuestionFields.age" type="number" class="registration-page__input" v-model="userData.age" required placeholder="גיל" >
+               <input type="text" class="registration-page__input" v-model="userData.name" required placeholder="שם פרטי ומשפחה" >
+			   <input v-if="testBuilderQuestionFields.address" type="text" class="registration-page__input" v-model="userData.address" required placeholder="כתובת מגורים" >
+           		<input v-if="showEmail" type="text" class="registration-page__input" v-model="userData.email" required placeholder="דואר אלקטרוני" >
+				<input v-if="testBuilderQuestionFields.name" type="phone" class="registration-page__input"  v-model="userData.phone" required placeholder="טלפון נייד" >
+				<input v-if="testBuilderQuestionFields.experience" type="text" class="registration-page__input"  v-model="userData.experience" required placeholder="מהי השכלתך?" >
+            	<input v-if="testBuilderQuestionFields.language" type="text" class="registration-page__input" v-model="userData.language" required placeholder="איזה שפות הינך דובר?" >
             
-            <input v-if="testBuilderQuestionFields.city" type="text" class="registration-page__input" v-model="userData.city" required placeholder="עיר מגורים" >
-           
-            <input v-if="testBuilderQuestionFields.name" type="phone" class="registration-page__input"  v-model="userData.phone" required placeholder="טלפון" >
-            
-            <input v-if="testBuilderQuestionFields.experience" type="text" class="registration-page__input"  v-model="userData.experience" required placeholder="נסיון" >
-            
-            <input v-if="testBuilderQuestionFields.expectedSalary" type="text" class="registration-page__input"  v-model="userData.expectedSalary" required placeholder="ציפיות שכר" >
-            
-            <input v-if="testBuilderQuestionFields.address" type="text" class="registration-page__input" v-model="userData.address" required placeholder="כתובת" >
-            <input v-if="testBuilderQuestionFields.freeText" type="text" class="registration-page__input" v-model="userData.freeText" required placeholder="טקסט חופשי" >
+            	<input v-if="testBuilderQuestionFields.freeText" type="text" class="registration-page__input" v-model="userData.freeText" required placeholder="טקסט חופשי" >
             
             <div style="display: inline-block; width: 50%;" v-if="testBuilderQuestionFields.resumeUploading" class="registration-page__file-body">
                 <label class="registration-page__file-label">

@@ -77,6 +77,8 @@ if (document.getElementById('emptest')) {
                     this.$emit('onzindexchanged', this.num);
                     this.num = 0;
                     this.isVisible = 'none';
+                    if(e.target.closest(".test-item").nextElementSibling.className=="test-finish")
+                            test.saveTest();
                 }
             },
             startTimer() {
@@ -147,7 +149,8 @@ if (document.getElementById('emptest')) {
                 freeText: '',
                 resume: '',
                 experience: '',
-                expectedSalary: ''
+                expectedSalary: '',
+                language:'',
             },
             results: [],
 
@@ -174,8 +177,10 @@ if (document.getElementById('emptest')) {
                 experience: false,
                 address: false,
                 expectedSalary: false,
+                language:false,
                 freeText: false,
                 resumeUploading: false,
+                phone:false,
                 questions: []
             },
             testRunnerZIndex: 1080,
@@ -254,6 +259,28 @@ if (document.getElementById('emptest')) {
                 this.userData.resume = files[0];
             },
             finishTest() {
+                // console.log('this.results = ', this.results);
+                // var formData = new FormData();
+                // formData.append('test_result', JSON.stringify(this.results));
+                // formData.append('percentageObject', JSON.stringify(this.percentObj));
+                // formData.append('percentage', JSON.stringify(this.percentage));
+                // formData.append('resume', this.userData.resume);
+                // formData.append('postid', this.buildPostId);
+                // delete this.userData.resume;
+                // this.userData.customQuestions = this.testBuilderQuestionFields;
+                // formData.append('userData', JSON.stringify(this.userData));
+                // formData.append('token', this.token);
+
+                // const requestOptions = {
+                //     method: "POST",
+                //     body: formData
+                // };
+
+                // fetch(window.wp_data.ajax_url + '?action=mynw_test_complete', requestOptions)
+                //     .then(response => window.location.href = '/');
+                window.location.href = '/';
+            },
+            saveTest() {
                 console.log('this.results = ', this.results);
                 var formData = new FormData();
                 formData.append('test_result', JSON.stringify(this.results));
@@ -271,10 +298,9 @@ if (document.getElementById('emptest')) {
                     body: formData
                 };
 
-                fetch(window.wp_data.ajax_url + '?action=mynw_test_complete', requestOptions)
-                    .then(response => window.location.href = '/');
+                fetch(window.wp_data.ajax_url + '?action=mynw_test_complete', requestOptions);
+                // .then(response => window.location.href = '/');
             },
-
 
             // test builder
             nextStep() {

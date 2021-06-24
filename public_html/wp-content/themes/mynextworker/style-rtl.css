@@ -5981,7 +5981,7 @@ div.wpcf7 p {
     left: 20px;
     margin-top:20px;
 }
-.footer-column__contacts .social-icons img
+.social-icons img
 {
     max-width:30px;
 }
@@ -6623,7 +6623,7 @@ div.wpcf7 p {
 	text-decoration: none;
 	width: 220px;
 	height: 50px;
-	background-color: #000000;
+	background-color: #169682;
 	transition: all .2s ease-in;
 
 	font-size: 22px;
@@ -7081,7 +7081,7 @@ a.disabled {
 	height: 50px;
 	border-radius: 15px;
 	box-shadow: -10px 20px 36px 0 rgba(0, 0, 0, 0.12);
-	background-color: #000000;
+	background-color: #169682;
 	font-size: 22px;
 	color: #ffffff;
 	text-decoration: none;
@@ -7124,7 +7124,7 @@ a.disabled {
 	height: 50px;
 	border-radius: 15px;
 	box-shadow: -10px 20px 36px 0 rgba(0, 0, 0, 0.12);
-	background-color: #000000;
+	background-color: #169682;
 	margin: 0 auto;
 	margin-bottom: 70px;
 	font-size: 22px;

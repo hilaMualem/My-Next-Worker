@@ -24,12 +24,12 @@ Template Name: Login
 <section class="login">
 
         <div class="login__col">
-            <div class="login__content">
-                <h1 class="login__title"><?php the_field('login_title'); ?></h1>
-                <p class="login__text"><?php the_field('login_text'); ?></p>
-                <span class="login__question"><?php the_field('login_question'); ?></span>
+            <!-- <div class="login__content">
+                <h1 class="login__title"><?php/* the_field('login_title'); */?></h1>
+                <p class="login__text"><?php/* the_field('login_text'); */?></p>
+                <span class="login__question"><?php/* the_field('login_question'); */?></span>
                 <a href="https://mynetworker.tzlilhosting.com/registration/" class="login__content-link">להרשמה</a>
-            </div>
+            </div> -->
         </div>
 
         <div class="login__col">

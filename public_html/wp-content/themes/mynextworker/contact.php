@@ -49,7 +49,7 @@ Template Name: Contact
                 </ul>
 
                 <div class="contact-box__social-icons social-icons">
-                    <!-- <a href="<?php /*the_field('instagram_link'); ?>" class="social-icons__icon"><img src="<?php echo get_stylesheet_directory_uri() */?>/assets/img/contact/instagram-icon.png" alt="icon"></a> -->
+                    <a href="<?php the_field('instagram_link'); ?>" class="social-icons__icon"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/contact/youtube.svg" alt="icon" style="width:100px;"></a>
                     <a href="<?php the_field('facebook_link'); ?>" class="social-icons__icon"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/contact/facebook-icon.png" alt="icon"></a>
                     <a href="<?php the_field('linkedin_link'); ?>" class="social-icons__icon"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/contact/linkedin-icon.png" alt="icon"></a>
                 </div>

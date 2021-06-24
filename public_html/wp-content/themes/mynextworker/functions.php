@@ -174,6 +174,7 @@ function mynw_user_registration_callback() {
   }
   
   $user_data['phone']          =    isset($_POST['phone']) ? sanitize_text_field( wp_unslash($_POST['phone'])) : '';
+  $user_data['firstname']          =    isset($_POST['firstname']) ? sanitize_text_field( wp_unslash($_POST['firstname'])) : '';
   $user_data['bussinessType']  =    isset($_POST['bussinessType']) ? sanitize_text_field( wp_unslash($_POST['bussinessType'])) : '';
   $user_data['address']        =    isset($_POST['address']) ? sanitize_text_field( wp_unslash($_POST['address'])) : '';
   $user_data['question1']      =    isset($_POST['question1']) ? sanitize_text_field( wp_unslash($_POST['question1'])) : '';
@@ -198,6 +199,7 @@ function mynw_user_registration_callback() {
     
     add_user_meta($id, 'logo', isset($user_data['logo'])?$user_data['logo']:'');
     add_user_meta($id, 'phone', $user_data['phone']);
+    add_user_meta($id, 'firstname', $user_data['firstname']);
     add_user_meta($id, 'bussinessType', $user_data['bussinessType']);
     add_user_meta($id, 'address', $user_data['address']);
     add_user_meta($id, 'question1', $user_data['question1']);

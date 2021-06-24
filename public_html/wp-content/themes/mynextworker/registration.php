@@ -38,7 +38,7 @@ Template Name: Registration
             <!-- <input type="text" class="registration-page__input" v-model="userData.contactName" placeholder="<?php the_field('registration_page_input_1'); ?>" > -->
             
             <input style="width: 100%;" type="text" class="registration-page__input registration-page__input--full-width" v-model="userData.companyName" required placeholder="<?php the_field('registration_page_input_2'); ?>" >
-            <input type="phone" class="registration-page__input" v-model="userData.phone" placeholder="<?php the_field('registration_page_input_3'); ?>" >
+            <input type="text" class="registration-page__input" v-model="userData.firstname" placeholder="<?php the_field('registration_page_input_3'); ?>" >
             <input type="mail" class="registration-page__input" v-model="userData.email" required placeholder="<?php the_field('registration_page_input_4'); ?>" >
             <input type="password" class="registration-page__input" v-model="userData.password" required placeholder="<?php the_field('registration_page_input_6'); ?>" >
             
@@ -160,6 +160,7 @@ Template Name: Registration
                 contactName: '',
                 email: '',
                 phone: '',
+                firstname:'',
                 password: '',
                 confirmPassword: '',
                 bussinessType: 'בחירת מקצוע',
@@ -197,6 +198,7 @@ Template Name: Registration
                     formData.append('companyName', this.userData.companyName);
                     formData.append('email', this.userData.email);
                     formData.append('phone', this.userData.phone);
+                    formData.append('firstname', this.userData.firstname);
                     formData.append('password', this.userData.password);
                     formData.append('bussinessType', this.userData.bussinessType);
                     formData.append('stage', this.userData.stage);
@@ -214,11 +216,13 @@ Template Name: Registration
                     .then(response => response.json())
                     .then(json => {
                         if(json.status === 'ok') {
+                          window.location.href = 'dashboard';
                           this.userData = {
                                               companyName: '',
                                               contactName: '',
                                               email: '',
                                               phone: '',
+                                              firstName:'',
                                               password: '',
                                               bussinessType: '',
                                               stage: '',
@@ -228,7 +232,6 @@ Template Name: Registration
                                               question1: '',
                                               question2: ''
                                           };
-                                          window.location.href = '/dashboard';
                         } else {
                           alert(json.data);
                         }

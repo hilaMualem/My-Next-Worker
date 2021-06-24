@@ -83,10 +83,14 @@
 				<a href="mailto:<?php the_field('email', 202); ?>" class="contacts__email">
 					<?php the_field('email', 202); ?>
 				</a>
+				<span class="contacts__label">WhatsApp</span>
+				<a href="https://wa.me/<?php the_field('whatsapp', 202); ?>" class="contacts__email">
+					<?php the_field('whatsapp', 202); ?>
+				</a>
 				<div class="contact-box__social-icons social-icons">
-                    <!-- <a href="<?php /*the_field('instagram'); ?>" class="social-icons__icon"><img src="<?php echo get_stylesheet_directory_uri()*/ ?>/assets/img/contact/instegram.svg" alt="icon"></a> -->
-                    <a href="<?php the_field('facebook'); ?>" class="social-icons__icon"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/contact/f.svg" alt="icon"></a>
-                    <a href="<?php the_field('linkedin'); ?>" class="social-icons__icon"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/contact/in.svg" alt="icon"></a>
+                    <a href="<?php the_field("instegram", 202); ?>" class="social-icons__icon"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/contact/youtube.svg" alt="icon"></a>
+                    <a href="<?php the_field('facebook', 202); ?>" class="social-icons__icon"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/contact/f.svg" alt="icon"></a>
+                    <a href="<?php the_field('linkdin', 202); ?>" class="social-icons__icon"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/contact/in.svg" alt="icon"></a>
                 </div>
 			</div>
 		</div>

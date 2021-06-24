@@ -164,38 +164,43 @@ Template Name: Test Builder
                         <div>
                             <input type="text"
                                 class="candidate-selection-form__input candidate-selection-form__input--valid"
-                                placeholder="עיר מגורים">
-                            <span class="candidate-selection-form__check" style="cursor: pointer" v-on:click="testBuilderQuestionFields.city = !testBuilderQuestionFields.city">{{testBuilderQuestionFields.city?'&#10003;':''}}</span>
+                                placeholder="שם פרטי ומשפחה">
+                            <span class="candidate-selection-form__check" style="cursor: pointer" v-on:click="testBuilderQuestionFields.name = !testBuilderQuestionFields.name">{{testBuilderQuestionFields.name?'&#10003;':''}}</span>
                         </div>
 
                         <div>
                             <input type="text"
                                 class="candidate-selection-form__input candidate-selection-form__input--valid"
-                                placeholder="גיל / תאריך לידה">
-                            <span class="candidate-selection-form__check" style="cursor: pointer" v-on:click="testBuilderQuestionFields.age = !testBuilderQuestionFields.age">{{testBuilderQuestionFields.age?'&#10003;':''}}</span>
-                        </div>
-
-                        <div>
-                            <input type="text"
-                                class="candidate-selection-form__input candidate-selection-form__input--valid"
-                                placeholder="ניסיון">
-                            <span class="candidate-selection-form__check" style="cursor: pointer" v-on:click="testBuilderQuestionFields.experience = !testBuilderQuestionFields.experience">{{testBuilderQuestionFields.experience?'&#10003;':''}}</span>
-                        </div>
-
-                        <div>
-                            <input type="text"
-                                class="candidate-selection-form__input candidate-selection-form__input--valid"
-                                placeholder="כתובת">
+                                placeholder="כתובת מגורים">
                             <span class="candidate-selection-form__check" style="cursor: pointer" v-on:click="testBuilderQuestionFields.address = !testBuilderQuestionFields.address">{{testBuilderQuestionFields.address?'&#10003;':''}}</span>
                         </div>
 
                         <div>
                             <input type="text"
                                 class="candidate-selection-form__input candidate-selection-form__input--valid"
-                                placeholder="דרישות שכר">
-                            <span class="candidate-selection-form__check" style="cursor: pointer" v-on:click="testBuilderQuestionFields.expectedSalary = !testBuilderQuestionFields.expectedSalary">{{testBuilderQuestionFields.expectedSalary?'&#10003;':''}}</span>
+                                placeholder="דואר אלקטרוני">
+                            <span class="candidate-selection-form__check" style="cursor: pointer" v-on:click="testBuilderQuestionFields.email = !testBuilderQuestionFields.email">{{testBuilderQuestionFields.email?'&#10003;':''}}</span>
                         </div>
 
+                        <div>
+                            <input type="text"
+                                class="candidate-selection-form__input candidate-selection-form__input--valid"
+                                placeholder="טלפון נייד">
+                            <span class="candidate-selection-form__check" style="cursor: pointer" v-on:click="testBuilderQuestionFields.phone = !testBuilderQuestionFields.phone">{{testBuilderQuestionFields.phone?'&#10003;':''}}</span>
+                        </div>
+
+                        <div>
+                            <input type="text"
+                                class="candidate-selection-form__input candidate-selection-form__input--valid"
+                                placeholder="מהי השכלתך?">
+                            <span class="candidate-selection-form__check" style="cursor: pointer" v-on:click="testBuilderQuestionFields.experience = !testBuilderQuestionFields.experience">{{testBuilderQuestionFields.experience?'&#10003;':''}}</span>
+                        </div>
+                        <div>
+                            <input type="text"
+                                class="candidate-selection-form__input candidate-selection-form__input--valid"
+                                placeholder="איזה שפות הינך דובר?">
+                            <span class="candidate-selection-form__check" style="cursor: pointer" v-on:click="testBuilderQuestionFields.language = !testBuilderQuestionFields.language">{{testBuilderQuestionFields.language?'&#10003;':''}}</span>
+                        </div>
                         <div>
                             <textarea class="candidate-selection-form__textarea candidate-selection-form__input--valid"
                                 placeholder="טקסט חופשי"></textarea>
