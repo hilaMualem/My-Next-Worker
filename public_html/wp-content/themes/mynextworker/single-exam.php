@@ -84,8 +84,8 @@
 	  $table_name = $wpdb->prefix . 'exam_results';
 	  $finished_count = $wpdb->get_results( "SELECT count(1) as count FROM $table_name WHERE user_id = " . $user->ID . " and exam_id = " . get_the_ID() . " and finished = TRUE");
 	  $finished_count = $finished_count[0]->count;
-	  if( !in_array( 'past_customer', $user->roles ) && $finished_count >= get_field('purched_send', 'user_'.$user->ID)) $is_valid_to_continue = "true";
-	  else $is_valid_to_continue = "false";
+	  if( in_array( 'past_customer', $user->roles ) || $finished_count >= get_field('purched_send', 'user_'.$user->ID)) $is_valid_to_continue = "false";
+	  else $is_valid_to_continue = "true";
 	?>
         <script>
 			window.percentObj = <?php echo json_encode($percentageData)?>;
